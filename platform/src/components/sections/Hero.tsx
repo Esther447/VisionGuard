@@ -50,21 +50,23 @@ function Hero() {
             transition={{ duration: 0.5, delay: 0.45 }}
             className="mt-8 flex flex-col sm:flex-row gap-4"
           >
-            <motion.button
+            <motion.a
+              href="/contact"
               whileHover={{ scale: 1.04 }}
               whileTap={{ scale: 0.97 }}
               className="group inline-flex items-center justify-center gap-2 bg-slate-700 hover:bg-slate-800 text-white font-semibold px-8 py-3 rounded-full transition-colors duration-200 text-sm"
             >
               Start Your Project
               <ArrowRight size={15} className="group-hover:translate-x-1 transition-transform duration-200" />
-            </motion.button>
-            <motion.button
+            </motion.a>
+            <motion.a
+              href="/projects"
               whileHover={{ scale: 1.04 }}
               whileTap={{ scale: 0.97 }}
               className="inline-flex items-center justify-center border border-white/40 hover:border-white text-white font-semibold px-8 py-3 rounded-full transition-colors duration-200 text-sm backdrop-blur-sm"
             >
               Explore Our Work
-            </motion.button>
+            </motion.a>
           </motion.div>
         </div>
 

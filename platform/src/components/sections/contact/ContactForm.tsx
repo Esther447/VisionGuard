@@ -116,11 +116,12 @@ export default function ContactForm() {
                 </div>
 
                 <select
+                  required
                   className={inputClass + " cursor-pointer"}
                   value={form.service}
                   onChange={e => setForm(f => ({ ...f, service: e.target.value }))}
                 >
-                  <option value="" disabled>Select a service</option>
+                  <option value="" disabled hidden>Select a service</option>
                   {services.map(s => <option key={s} value={s}>{s}</option>)}
                 </select>
 

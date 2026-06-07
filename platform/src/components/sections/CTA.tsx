@@ -35,21 +35,23 @@ export default function CTA() {
             Whether you&apos;re a startup, a school, or a local business — we&apos;ll help you get online, get found, and get growing. Let&apos;s talk about your project today.
           </p>
           <div className="mt-7 flex flex-col sm:flex-row gap-3 justify-center">
-            <motion.button
+            <motion.a
+              href="/contact"
               whileHover={{ scale: 1.04 }}
               whileTap={{ scale: 0.97 }}
               className="group inline-flex items-center justify-center gap-2 bg-slate-700 hover:bg-slate-600 text-white font-semibold px-9 py-3.5 rounded-full transition-colors duration-200 text-sm"
             >
               Start Your Project
               <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform duration-200" />
-            </motion.button>
-            <motion.button
+            </motion.a>
+            <motion.a
+              href="/contact"
               whileHover={{ scale: 1.04 }}
               whileTap={{ scale: 0.97 }}
               className="inline-flex items-center justify-center gap-2 border border-white/30 hover:border-white/70 hover:bg-white/10 text-white font-semibold px-9 py-3.5 rounded-full transition-all duration-200 text-sm backdrop-blur-sm"
             >
               Contact Us
-            </motion.button>
+            </motion.a>
           </div>
         </FadeUp>
       </div>

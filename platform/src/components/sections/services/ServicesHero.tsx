@@ -43,7 +43,8 @@ export default function ServicesHero() {
         >
           From your first website to full digital systems — we deliver everything your business needs to thrive online.
         </motion.p>
-        <motion.button
+        <motion.a
+          href="/contact"
           initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
           whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}
@@ -51,7 +52,7 @@ export default function ServicesHero() {
         >
           Get a Free Quote
           <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform duration-200" />
-        </motion.button>
+        </motion.a>
       </div>
     </section>
   );

@@ -36,7 +36,7 @@ export default function ProjectsFeatured() {
           </a>
         </div>
 
-        <StaggerContainer className="grid grid-cols-1 lg:grid-cols-3 lg:grid-rows-2 gap-4" style={{ minHeight: 480 }}>
+        <StaggerContainer className="grid grid-cols-1 lg:grid-cols-3 lg:grid-rows-2 gap-4 lg:min-h-[480px]">
           {featured.map(({ label, title, year, desc, image, span, height }) => (
             <StaggerItem key={title}>
               <motion.div

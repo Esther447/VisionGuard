@@ -50,9 +50,9 @@ function Header() {
           ))}
         </nav>
 
-        <button className="hidden md:inline-flex items-center gap-2 bg-slate-700 hover:bg-slate-800 text-white text-sm font-semibold px-5 py-2 rounded-full transition-colors duration-200">
+        <a href="/contact" className="hidden md:inline-flex items-center gap-2 bg-slate-700 hover:bg-slate-800 text-white text-sm font-semibold px-5 py-2 rounded-full transition-colors duration-200">
           Let&apos;s Talk
-        </button>
+        </a>
 
         {/* Mobile hamburger */}
         <button
@@ -91,6 +91,7 @@ function Header() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.3 }}
               className="mt-3 bg-slate-700 hover:bg-slate-800 text-white text-sm font-semibold px-5 py-2.5 rounded-full transition-colors w-full"
+              onClick={() => { setMenuOpen(false); window.location.href = "/contact"; }}
             >
               Let&apos;s Talk
             </motion.button>

@@ -83,7 +83,8 @@ export default function ServicesPricing() {
                   ))}
                 </ul>
 
-                <motion.button
+                <motion.a
+                  href="/contact"
                   whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}
                   className={`group mt-auto inline-flex items-center justify-center gap-2 font-semibold px-6 py-3 rounded-full text-sm transition-colors duration-200 ${
                     highlight
@@ -92,7 +93,7 @@ export default function ServicesPricing() {
                   }`}
                 >
                   {cta} <ArrowRight size={13} className="group-hover:translate-x-1 transition-transform duration-200" />
-                </motion.button>
+                </motion.a>
               </motion.div>
             </StaggerItem>
           ))}

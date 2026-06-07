@@ -310,13 +310,14 @@ export default function ProjectsGrid() {
 
                   {/* CTA */}
                   <div className="mt-8 pt-8 border-t border-slate-800 flex flex-col sm:flex-row gap-3">
-                    <motion.button
+                    <motion.a
+                      href="/contact"
                       whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}
                       className="group inline-flex items-center justify-center gap-2 bg-white hover:bg-slate-100 text-slate-900 font-semibold px-7 py-3.5 rounded-full text-sm transition-colors duration-200"
                     >
                       Start a Similar Project
                       <ArrowUpRight size={14} className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-200" />
-                    </motion.button>
+                    </motion.a>
                     <motion.button
                       whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}
                       onClick={() => setSelected(null)}
