@@ -1,3 +1,11 @@
+# VisionGuard — AI-Powered Vision Security Platform
+
+🌐 **Live site:** [https://visionguard.digital](https://visionguard.digital)
+
+VisionGuard is an AI-powered computer vision security platform for real-time threat detection, automated analytics, and intelligent monitoring.
+
+---
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
