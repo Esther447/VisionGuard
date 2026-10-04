@@ -3,12 +3,12 @@ import { FadeUp, StaggerContainer, StaggerItem } from "@/components/animations";
 import { motion } from "framer-motion";
 
 const values = [
-  { num: "01", title: "Clarity First", desc: "We communicate clearly — with clients, in our designs, and in every line of code we write. No jargon, no confusion." },
-  { num: "02", title: "Real Impact", desc: "We measure success by how much our clients grow, not by the number of features we ship." },
-  { num: "03", title: "Always Learning", desc: "Technology evolves fast. We stay ahead so our clients always get modern, relevant solutions." },
-  { num: "04", title: "People Over Profit", desc: "We work with schools, startups, and local businesses because we believe in uplifting communities." },
-  { num: "05", title: "Quality Always", desc: "Every website, system, and tool we build is crafted with care, tested thoroughly, and built to last." },
-  { num: "06", title: "Growth Together", desc: "When our clients grow, we grow. We build long-term partnerships, not one-off transactions." },
+  { num: "01", title: "Responsibility", desc: "Each member owns their role. We take accountability seriously and deliver on our commitments to clients and each other." },
+  { num: "02", title: "Collaboration", desc: "We work as a unified team. Every project benefits from the combined expertise of leadership, engineering, and marketing." },
+  { num: "03", title: "Growth", desc: "Continuous learning and improvement are core to who we are. We stay ahead so our clients always get modern, relevant solutions." },
+  { num: "04", title: "Innovation", desc: "We build impactful and modern solutions — from AI-powered platforms to IoT systems — that solve real problems." },
+  { num: "05", title: "Professionalism", desc: "Every website, system, and tool we deliver is crafted with care, tested thoroughly, and built to the highest standard." },
+  { num: "06", title: "Real Impact", desc: "We measure success by how much our clients grow. We build long-term partnerships, not one-off transactions." },
 ];
 
 export default function AboutValues() {

@@ -4,9 +4,9 @@ import { SlideLeft, SlideRight } from "@/components/animations";
 import { Target, Eye, Heart } from "lucide-react";
 
 const pillars = [
-  { icon: Target, title: "Our Mission", desc: "To help every business — no matter its size — become visible, trusted, and competitive in the digital space." },
-  { icon: Eye, title: "Our Vision", desc: "A Rwanda where every local business, school, and startup has a strong, professional digital presence." },
-  { icon: Heart, title: "Our Values", desc: "Integrity, creativity, and real impact. We build relationships, not just websites." },
+  { icon: Target, title: "Our Mission", desc: "To deliver innovative digital solutions that help businesses, schools, and startups become visible, competitive, and digitally empowered." },
+  { icon: Eye, title: "Our Vision", desc: "A future where every organisation — regardless of size — has access to modern technology: smart systems, professional platforms, and the skills to use them." },
+  { icon: Heart, title: "Our Values", desc: "Responsibility, collaboration, continuous growth, innovation, and professionalism in every solution we deliver." },
 ];
 
 export default function AboutStory() {
@@ -16,17 +16,17 @@ export default function AboutStory() {
         <SlideLeft>
           <span className="text-slate-500 text-xs font-semibold uppercase tracking-[0.25em]">Our Story</span>
           <h2 className="mt-3 text-3xl md:text-4xl lg:text-5xl font-bold text-slate-800 leading-tight">
-            Built from a Simple <br /> Observation
+            Technology Built <br /> for Real Impact
           </h2>
           <div className="mt-4 w-12 h-1 bg-slate-700 rounded-full" />
           <p className="mt-6 text-slate-500 text-sm leading-relaxed">
-            We noticed that hundreds of businesses in Rwanda were invisible online — not because they lacked quality, but because they lacked digital tools. Schools couldn&apos;t be found. Restaurants had no websites. Local services were losing customers to competitors who simply showed up online.
+            VisionGuard is a technology company focused on delivering innovative digital solutions — including website and platform development, smart IoT systems, digital transformation services, and professional training programs.
           </p>
           <p className="mt-4 text-slate-500 text-sm leading-relaxed">
-            VisionGuard was founded to change that. We started with a clear goal: give every business — regardless of size or budget — the digital presence it deserves. Today, we&apos;ve helped over 120 businesses and trained 50+ young professionals to build the digital future of Rwanda.
+            We operate with a collaborative startup model where every technical member contributes to engineering while maintaining clear ownership of responsibilities — ensuring efficiency, accountability, and continuous growth.
           </p>
           <div className="mt-8 flex items-center gap-6">
-            {[["2019", "Founded"], ["120+", "Clients"], ["50+", "Trainees"]].map(([val, label]) => (
+            {[["3", "Core Areas"], ["5", "Team Members"], ["∞", "Ambition"]].map(([val, label]) => (
               <div key={label} className="text-center">
                 <p className="text-3xl font-black text-slate-800">{val}</p>
                 <p className="text-slate-500 text-xs mt-0.5">{label}</p>

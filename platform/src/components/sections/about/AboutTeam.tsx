@@ -4,10 +4,11 @@ import { motion } from "framer-motion";
 import { Link2, Share2 } from "lucide-react";
 
 const team = [
-  { name: "Ngabi Blackiane", role: "Founder & CEO", initials: "NB", desc: "Passionate about using technology to solve real problems in Rwanda and across Africa." },
-  { name: "Alice Uwimana", role: "Lead Developer", initials: "AU", desc: "Full-stack engineer with a love for clean code and pixel-perfect interfaces." },
-  { name: "Patrick Nkurunziza", role: "Digital Strategist", initials: "PN", desc: "Helps businesses get found online through smart SEO and digital presence strategies." },
-  { name: "Grace Mukamana", role: "UX Designer", initials: "GM", desc: "Designs experiences that feel intuitive, beautiful, and genuinely useful to real users." },
+  { name: "Esther Mushimiyimana", role: "CEO — Strategic Leadership & Business Development", initials: "EM", desc: "Drives the company vision, secures clients, builds partnerships, and leads product direction based on market needs." },
+  { name: "Diane Ingabire", role: "CTO — Technical Leadership & System Architecture", initials: "DI", desc: "Leads all technical development, designs system architecture, and ensures quality across platforms, websites, and IoT solutions." },
+  { name: "Kelia Iradukunda", role: "Backend & Training Lead — Fullstack", initials: "KI", desc: "Develops and maintains backend systems, leads company training programs, and drives internal knowledge sharing." },
+  { name: "Chantalle Uwitonze", role: "Fullstack Engineer & Business Management", initials: "CU", desc: "Leads frontend development, builds responsive interfaces, and collaborates on fullstack integration across all projects." },
+  { name: "Gervais Tumukunde", role: "Marketing & Growth Lead", initials: "GT", desc: "Manages brand identity, content, and campaigns — generating leads and supporting business growth alongside the CEO." },
 ];
 
 export default function AboutTeam() {
@@ -24,7 +25,7 @@ export default function AboutTeam() {
           </div>
         </FadeUp>
 
-        <StaggerContainer className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <StaggerContainer className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
           {team.map(({ name, role, initials, desc }) => (
             <StaggerItem key={name}>
               <motion.div
